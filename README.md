@@ -1,5 +1,5 @@
 # Twilight
-Welcome to Twilight - a digital oasis where music and magic intertwine. Powered by the MERN stack, this sleek platform offers a personalized auditory journey. It's not just music; it's a cosmic concert of cool, where technology and melody perform a nightly serenade just for you.
+Welcome to Twilight - a digital oasis where music and magic intertwine. Powered by the MERN stack, this sleek platform offers a personalized auditory journey. It's not just music, it's a cosmic concert of cool, where technology and melody perform a nightly serenade just for you.
 
 ## Features
 * Users can curate their own playlists based on music preferences, creating a tailored sonic experience.
@@ -23,7 +23,7 @@ Welcome to Twilight - a digital oasis where music and magic intertwine. Powered 
 4. Clone this repository and install the required packages using npm.
 
 ```
-git clone https://github.com/AMS003010/Twilight.git
+git clone https://github.com/aaqibhakeem/Twilight.git
 cd Twilight
 npm install
 ```
@@ -35,7 +35,7 @@ PORT='<port>'
 MONGO_URI='<mongobd uri>'
 SECRET='<key>'
 ```
-6. Add your firebase config details in [firebase.js](https://github.com/AMS003010/Twilight/blob/main/frontend/src/firebase.js)
+6. Add your firebase config details in [firebase.js](https://aaqibhakeem/Twilight/Twilight/blob/main/frontend/src/firebase.js)
 
 ```
 import { initializeApp } from "firebase/app";
@@ -54,7 +54,7 @@ export const storage = getStorage(app);
 
 10. Then go to [localhost:3000](http://localhost:3000/).
 
-11. Use the [SongUploader.js](https://github.com/AMS003010/Twilight/blob/main/frontend/src/components/SongUploader.js) and the [PlaylistUploader.js](https://github.com/AMS003010/Twilight/blob/main/frontend/src/components/PlaylistUploader.js) components to upload your songs and playlists on Firebase storage.
+11. Use the [SongUploader.js](https://github.com/aaqibhakeem/Twilight/blob/main/frontend/src/components/SongUploader.js) and the [PlaylistUploader.js](https://github.com/aaqibhakeem/Twilight/blob/main/frontend/src/components/PlaylistUploader.js) components to upload your songs and playlists on Firebase storage.
 
 
 
